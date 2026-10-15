@@ -186,11 +186,11 @@ Code complet : [code/FEN_Liste_Lots_DeclarationsGlobales.wl](../code/FEN_Liste_L
 
 ### Étape 5.2 – Résultat
 
-Le simulateur Android affiche les **3 lots** (Serre 1, 2 et 3) avec leur date de semis, lus dans le fichier HFSQL du téléphone.
+Le simulateur Android affiche les **3 lots** (Serre 1, 2 et 3) avec leur date de semis au format JJ/MM/AAAA, lus dans le fichier HFSQL du téléphone.
 
 ![Lots dans le simulateur](../screenshots/mobile/m20-simulateur-lots.png)
 
-Amélioration immédiate : afficher la date au format JJ/MM/AAAA (type Date et masque d'affichage sur le libellé).
+Le libellé de date est réglé en type **Date** avec le masque **JJ/MM/AAAA** (onglet Général du champ), pour afficher 01/10/2026 au lieu de la valeur brute 20261001.
 
 ---
 
