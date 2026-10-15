@@ -1,0 +1,10 @@
+# WinDev - fichiers générés et données locales
+Exe/
+*.tmp
+*.bak
+*.cpl
+*.err
+# Données HFSQL de test (ne pas publier de données)
+*.fic
+*.ndx
+*.mmo
