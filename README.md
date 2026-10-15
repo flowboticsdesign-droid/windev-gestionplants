@@ -3,7 +3,7 @@
 Application Windows de gestion de production de **plants maraîchers** : variétés, lots semés et commandes clients.
 Réalisée avec **WinDev 28 Express** (PC SOFT) et une base **HFSQL Classic**, pour prendre en main l'environnement PC SOFT.
 
-![Fiche lot avec date calculée](screenshots/16-fiche-lot-date-calculee.png)
+![Fiche lot avec date calculée](screenshots/41-fiche-lot-date-calculee.png)
 
 ## En bref
 
@@ -56,7 +56,7 @@ erDiagram
     }
 ```
 
-![Analyse complète](screenshots/07-analyse-complete.png)
+![Analyse complète](screenshots/23-analyse-complete.png)
 
 ## Code WLangage
 
@@ -80,13 +80,30 @@ Détail dans [code/FEN_Fiche_LOT_SAI_DateSemis.wl](code/FEN_Fiche_LOT_SAI_DateSe
 | Lot Black Beauty, semis 20/10/2026 | Date prête calculée : 04/12/2026 (+45 jours) |
 | Suppression d'une variété qui a un lot | Refusée : « Intégrité non respectée » |
 
-![Intégrité refusée](screenshots/15-integrite-refusee.png)
+![Intégrité refusée](screenshots/39-integrite-non-respectee.png)
+
+## Étapes du projet en images
+
+| Étape | Captures | Contenu |
+| --- | --- | --- |
+| 1. Installation et activation | 01 – 04 | Activation de WinDev Express, imprimante par défaut, écran d'accueil |
+| 2. Création du projet | 05 – 11 | Plateforme, charte de programmation, gabarit, langue, base de données |
+| 3. Analyse et fichiers | 12 – 18 | Analyse HFSQL, fichiers VARIETE, LOT, COMMANDE et leurs rubriques |
+| 4. Liaisons | 19 – 23 | Cardinalités, clé reliée, règles d'intégrité |
+| 5. Génération | 24 – 29 | Analyse v1, RAD application complète, tableau de bord du projet |
+| 6. États | 30 – 34 | Erreurs d'UI, correction des libellés, compilation |
+| 7. Tests | 35 – 41 | Application, intégrité refusée, date prête calculée |
+
+| | | |
+| --- | --- | --- |
+| ![Projet](screenshots/05-projet-plateforme.png) | ![Rubriques](screenshots/14-rubriques-variete.png) | ![Intégrité](screenshots/22-liaison-regles-integrite.png) |
+| ![RAD](screenshots/25-rad-choix-fichiers.png) | ![Tableau de bord](screenshots/29-tableau-de-bord-projet.png) | ![État des lots](screenshots/33-etat-lot-corrige.png) |
 
 ## Documentation
 
 - [Documentation pas à pas](docs/DOCUMENTATION.md) : installation, construction, tests, problèmes rencontrés.
 - [Glossaire et formes complètes](docs/GLOSSAIRE.md) : HFSQL, RAD, FAA, GDS, MLD…
-- [Captures d'écran](screenshots/) : 16 étapes du projet.
+- [Captures d'écran](screenshots/) : les 41 étapes du projet, de l'installation au test final.
 
 ## Améliorations prévues
 
