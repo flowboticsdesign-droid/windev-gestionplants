@@ -9,7 +9,7 @@ Réalisée avec **WinDev 28 Express** (PC SOFT) et une base **HFSQL Classic**, p
 
 | Élément | Détail |
 | --- | --- |
-| Outil | WinDev 28 Express (PC SOFT) |
+| Outils | WinDev 28 Express et WinDev Mobile 28 Express (PC SOFT) |
 | Langage | WLangage |
 | Base de données | HFSQL Classic |
 | Fichiers de données | 3 : VARIETE, LOT, COMMANDE |
@@ -99,8 +99,19 @@ Détail dans [code/FEN_Fiche_LOT_SAI_DateSemis.wl](code/FEN_Fiche_LOT_SAI_DateSe
 | ![Projet](screenshots/05-projet-plateforme.png) | ![Rubriques](screenshots/14-rubriques-variete.png) | ![Intégrité](screenshots/22-liaison-regles-integrite.png) |
 | ![RAD](screenshots/25-rad-choix-fichiers.png) | ![Tableau de bord](screenshots/29-tableau-de-bord-projet.png) | ![État des lots](screenshots/33-etat-lot-corrige.png) |
 
+## Application mobile Android
+
+Une application **WinDev Mobile** réutilise **la même analyse HFSQL** : liste des lots sur téléphone (zone répétée liée au fichier LOT), données créées en WLangage, testée dans le simulateur Android.
+
+| | |
+| --- | --- |
+| ![Analyse partagée](screenshots/mobile/m09-tableau-de-bord-mobile.png) | ![Lots sur Android](screenshots/mobile/m20-simulateur-lots.png) |
+
+Détail pas à pas avec 20 captures : [docs/WINDEV_MOBILE.md](docs/WINDEV_MOBILE.md)
+
 ## Documentation
 
+- [Application mobile Android pas à pas](docs/WINDEV_MOBILE.md)
 - [Documentation pas à pas](docs/DOCUMENTATION.md) : installation, construction, tests, problèmes rencontrés.
 - [Glossaire et formes complètes](docs/GLOSSAIRE.md) : HFSQL, RAD, FAA, GDS, MLD…
 - [Captures d'écran](screenshots/) : les 41 étapes du projet, de l'installation au test final.
